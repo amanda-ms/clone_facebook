@@ -50,7 +50,6 @@ header .menu .menu__search .menu__button {
 }
 header .menu .menu__options {
   display: flex;
-  list-style: none;
 }
 header .menu .menu__options .menu__profile {
   display: flex;
@@ -67,58 +66,17 @@ header .menu .menu__options .menu__profile figure .menu__photo {
   width: 100%;
   height: 100%;
 }
-header .menu .menu__options .menu__profile li {
-  color: white;
+header .menu .menu__options .menu__profile strong {
+  color: black;
   font-size: 12px;
-  padding: 0 12px 0 10px;
+  padding: 3px 12px 0 10px;
   height: 20px;
   border-right: 1px solid rgba(49, 77, 131, 0.5);
   cursor: pointer;
-  font-weight: 600;
 }
-header .menu .menu__options li {
+header .menu .menu__options strong {
   color: white;
   font-size: 12px;
-  margin-top: 8px;
-  padding: 2px 12px 0 10px;
-  height: 20px;
-  border-right: 1px solid rgba(49, 77, 131, 0.5);
-  cursor: pointer;
-  font-weight: 600;
-}
-header .menu .menu__interaction {
-  display: flex;
-  list-style: none;
-  margin-top: 3px;
-}
-header .menu .menu__interaction li {
-  padding: 2px;
-  margin-left: 13px;
-}
-header .menu .menu__interaction li .interaction__icon {
-  width: 20px;
-  height: 20px;
-}
-header .menu .menu__interaction .border {
-  padding-right: 12px;
-  border-right: 1px solid rgba(49, 77, 131, 0.5);
-}
-header .menu .menu__icons {
-  display: flex;
-  list-style: none;
-  padding-top: 3px;
-}
-header .menu .menu__icons li {
-  padding: 2px;
-  margin-left: 10px;
-}
-header .menu .menu__icons li .icon {
-  width: 20px;
-  height: 20px;
-}
-header .menu .menu__icons li .secondary {
-  width: 10px;
-  height: 10px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styli.css.map */
